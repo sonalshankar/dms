@@ -1,0 +1,22 @@
+{
+  "name": "dms",
+  "version": "1.0.0",
+  "description": "Direct Materials Sourcing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonalshankar/dms.git"
+  },
+  "author": "Sonal Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonalshankar/dms/issues"
+  },
+  "homepage": "https://github.com/sonalshankar/dms#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}

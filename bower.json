@@ -1,0 +1,21 @@
+{
+  "name": "dms",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sonalshankar/dms",
+  "authors": [
+    "Sonal Singh <son.singh@sap.com>"
+  ],
+  "description": "Direct Materials Sourcing",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angularjs": "1.4.9"
+  }
+}
