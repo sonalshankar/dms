@@ -1,0 +1,33 @@
+/* Mozila */
+@-moz-document url-prefix() { 
+  .top-duetime-fix {
+     .col-md-offset-3 {
+    	margin-left: 0%;
+	}
+  }
+  .dms-grid {
+    .grid {
+        height: 100% !important;
+    }
+  }
+  
+
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.top-duetime-fix {
+     .col-md-offset-3 {
+    	margin-left: 0%;
+	}
+  }
+  .dms-grid {
+    .grid {
+        height: 100% !important;
+    }
+  }
+}
+
+/* Safari only */
+.dmsselect:not(:root:root) {
+  background: none !important;
+}

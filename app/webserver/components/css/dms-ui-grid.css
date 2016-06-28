@@ -1,0 +1,187 @@
+/*Added Support for overwrting scrolls*/
+/*For Height */
+.dms-grid
+{
+  /*height:150px !important;*/
+}
+
+/*For UI DROP DOWN FIXED */
+.dms-grid .ui-select-match > span{
+    /*padding: 0 0 0 2px;
+    height: 20px!important;
+    width: 100px;
+    margin: 5px;*/
+    border: 1px solid #acd4ed;
+}
+
+
+.dms-grid .ui-select-match > span > span{
+    padding: 0 0 0 2px;
+    height: 20px!important;
+    width: 100%;
+    margin: 2px;
+    font-size:13px !important;
+}
+
+.ui-select-container.ui-select-bootstrap.dropdown.ng-invalid.ng-invalid-required.selectError span.btn.btn-default.form-control.ui-select-toggle{
+  border: 1px solid #DB524B !important;
+}
+
+.dms-grid{
+  height: auto; /*dms.css:641*/
+}
+
+.ui-grid-header-cell{
+  min-height: 35px;
+  line-height: 35px;
+  background-color: #ececec !important;
+  color: #636363 !important;
+  border: 0;
+}
+.ui-grid-cell-focus{
+  background-color:inherit;
+}
+.ui-grid-icon-ok:before {
+    content: '';
+    color: #199DE0;
+    font-size: 14px;
+}
+.ui-grid-icon-ok.ui-grid-row-selected:before{
+    content: '\c362'; /*for tickMark*/
+    /*content: '\e05b'; /*for small square box*/
+}
+.ui-grid-selection-row-header-buttons:hover{
+  background-color: #F5F5F5;
+  border: 1px solid #199DE0;
+}
+.ui-grid-selection-row-header-buttons{
+  border: 1px solid #ACD4ED;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  margin: 4px 0;
+}
+[class^="ui-grid-icon"]:before, [class*=" ui-grid-icon"]:before{
+  margin-left: 3px;
+}
+
+.ui-grid-row.ui-grid-row-selected > [ui-grid-row] > .ui-grid-cell{
+  background-color: #ffffff;
+}
+
+/*.dms-grid div.ui-grid-cell input.ng-invalid,
+ .dms-grid div.ui-grid-cell ~ .ng-scope input:focus,
+ .dms-grid div.ui-grid-cell ~ .ng-scope input:active,
+ .dms-grid div.ui-grid-cell ~ .ng-scope input:visited
+{
+  margin: 2px 7px;
+  float: left;
+  display: inline-block;
+  }*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+  .dms-grid div.ui-grid-cell input {
+    width: 75px !important;
+    height: 30px !important;
+    padding: 0 5px;
+    font-size: 13px!important;
+  }
+.dms-grid div.ui-grid-cell input.ng-invalid{
+  float: left;
+}
+  .dms-grid div.ui-grid-cell-contents > input {
+    /*margin:-2px 5px 0 5px;*/
+    margin: 0 5px 0 0;
+    float: left;
+    display: inline-block;
+  }
+
+.dms-grid .ui-grid-pinned-container.ui-grid-pinned-container-left .ui-grid-cell:last-child,
+.ui-grid-header-cell:last-child .ui-grid-column-resizer.right
+{
+  border-right: none;
+  box-shadow: inset -2px 0px #d4d4d4;
+}
+.dms-grid .ui-grid-pinned-container.ui-grid-pinned-container-left .ui-grid-cell:first-child,
+.ui-grid-header-cell:first-child .ui-grid-column-resizer.right{
+  border-right: none;
+  box-shadow: none;
+}
+.ui-grid-pinned-container.ui-grid-pinned-container-left .ui-grid-header-cell:last-child{
+  border-right: 0;
+}
+.dms-grid .ui-grid-cell-contents{
+  padding: 2px 7px;
+}
+.ui-grid-cell-contents{
+  white-space: inherit !important;
+}
+.ui-grid-row, .ui-grid-cell, .ui-grid-cell .ui-grid-vertical-bar{
+  /*padding-top: 3px;*/
+  line-height: 23px;
+}
+.ui-grid-canvas{
+  padding: 0;
+}
+
+.ui-grid-viewport {
+  height: inherit !important;
+  overflow-x: scroll;
+}
+
+/*dms.css :65 to :71*/
+.dms-grid .ui-grid-row .ui-grid-cell {
+  border-bottom: 1px solid #efefef !important;
+  background-color: #fff !important;
+}
+.form-group.ng-scope
+{
+  clear:both!important;
+}
+
+/*FIxed Label Position*/
+label.control-label.starting-on-lbl.ng-binding
+{
+    position: relative;
+    left: -30px;
+}
+
+/*Added Broder For Checkbox*/
+.ui-grid-selection-row-header-buttons
+{
+  border: 1px solid #e1d9d9;
+  opacity: .6;
+}
+
+.ui-grid-icon-ok.ui-grid-all-selected:before{
+  content: '\c362';
+}
+
+.hasError
+{
+  background: red;
+  width: 100px;
+  height:200px;
+  color:red;
+  border-color: 1px solid blue;
+}
+
+/* removed blue border on focus of element*/
+:focus {
+    outline: none;
+}
+
+/* for ui grid validation */
+.inputError
+{
+  border: 1px solid #DB524B !important;
+}
+.spanError{
+  color:#DB524B !important;
+}

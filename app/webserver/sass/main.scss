@@ -1,0 +1,35 @@
+@import "common/alert";
+@import "common/grid";
+@import "common/loading";
+@import "common/popover";
+@import "common/validation";
+@import "common/override-style";
+@import "common/crossbrowser";
+@import "common/modal-popup";
+@import "common/date-picker";
+
+@import "simpleevent/simpleevent";
+@import "simpleevent/collectquote";
+@import "simpleevent/duetime";
+@import "simpleevent/disabler-table";
+
+@import "styleguide/form-control";
+
+@import "dms";
+@import "style";
+
+html, body, button, input, select, textarea {
+    font: 300 13px/16px Arial, Verdana, sans-serif!important;
+    line-height: 16px !important;
+    color: #000000;
+}
+label {
+	color: #767676 !important;
+	font-weight: normal;
+}
+input {
+	border: 1px solid #ACD4ED !important;
+}
+select {
+	border: 1px solid #ACD4ED !important;
+}

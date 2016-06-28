@@ -1,0 +1,15 @@
+input.ng-invalid.has-visited {
+	border:1px solid #CC0000;
+}
+input.ng-valid.has-visited {
+	border:1px solid #ccc;
+}
+select.ng-invalid.has-visited {
+	border:1px solid #CC0000;
+}
+.control-group.error input {
+	border-color: #CC0000;
+}
+.control-group.error select {
+	    border-color: #CC0000;
+}

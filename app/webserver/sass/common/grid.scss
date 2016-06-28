@@ -1,0 +1,87 @@
+.table-header {
+	height: 35px;
+    background-color: #F2F2F2;
+    span {
+    	font-size: 18px;
+    	color: #363636;
+    	padding-left: 15px;
+    	padding-right: 15px;
+    	&.item{
+    	}
+    	&.terms{
+    		padding-left: 10%;
+    	}
+    	&.validity {
+    		float: right;
+    		padding-right: 10%;
+    	}
+    }  
+}
+.table-footer{
+    height: 35px;
+    background-color: #F2F2F2;
+}
+.table-footer-grid {
+	height: 5px;
+    background-color: #F2F2F2;
+}
+
+.dms-grid {
+    .grid {
+        font-size: 11px !important;
+        width:100% !important;
+        height: 100% !important;
+    }
+    .ui-grid-top-panel {
+        font-weight: normal;
+        color: #636363;
+        font-size: 11px;
+    }
+    div.ui-grid-cell input {
+        width: 100px !important;
+        height: 20px !important;
+        padding-left: 2px;
+        font-size: 11px !important;
+        &.ng-valid {
+            border:1px solid #acd4ed !important;
+        }
+        &.ng-invalid {
+            border:1px solid CC0000 !important;
+        }
+    }
+    .ui-grid-cell-focus {
+        background-color: #f5f5f5 !important;
+        background-color: #ACD4ED;
+    }
+    .ui-grid-row:nth-child(odd) .ui-grid-cell {
+        border-bottom: 1px solid #ccc !important;
+    }
+    .ui-grid-row:nth-child(even) .ui-grid-cell {
+        background-color: #fff !important;
+        border-bottom: 1px solid #ccc !important;
+    }
+    .ui-grid-row:nth-child(odd) .ui-grid-cell.ui-grid-row-header-cell {
+        background-color: #fff;
+    }
+    .ui-grid-selection-row-header-buttons {
+    border: 1px solid #acd4ed;
+    }
+    
+    .ui-grid-row.ui-grid-row-selected > [ui-grid-row] > .ui-grid-cell {
+    background-color: #ACD4ED !important;
+    }
+    .ui-grid-cell-focus {
+    
+    }
+    textarear {
+    height: 20px !important;
+    }
+    .text-muted {
+    font-size: 11px;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,33 @@
+.header-title {
+    padding: 15px 0 10px 0;
+    margin: 5px;
+
+	.header-lbl {
+	font-size: 18px;
+	color: #363636 !important;
+	padding-top: 10px;
+	}
+}
+.top-duetime-fix {
+	/*margin-top: -34px;*/
+	margin-top: -88px;
+}
+.test-project {
+	.radio-inline {
+	padding-top: 0 !important;
+	input[type=radio] {
+		top: -3px;
+		}
+	}
+}
+.header-bg {
+}
+
+.leftcolumn{
+float: left;
+width: 480px; /*Width of left column in pixels*/
+}
+.rightcolumn{
+float: left;
+width: 450px; /*Width of right column in pixels*/
+}

@@ -1,0 +1,38 @@
+/*.duration {
+    float: right;
+    display: inline;
+}
+.due-time-date {
+    top: -3px;
+    float: right; 
+}
+.due-time-input {
+    display: inline;
+}
+*/
+.reminder-chk {
+	padding-left: 85px;
+	input[type=checkbox] {
+    	margin-top: 1px;
+    }
+	label {
+		padding-left: 9px;
+	}
+}
+.in-text {
+    vertical-align: baseline;
+    color: #767676;
+    line-height: 30px;
+}
+.due-time-radio {
+	input[type=radio] {
+        margin-top: -3px;
+    }
+
+}
+.due-time-radio-lbl {
+    color: #767676;
+    width: 70px;
+    word-wrap: break-word;
+    line-height: 12px;
+}

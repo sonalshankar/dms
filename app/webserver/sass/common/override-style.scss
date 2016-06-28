@@ -1,0 +1,145 @@
+input {
+    border-radius: 0 !important;
+}
+select {
+    border-radius: 0 !important;
+}
+.form-control {
+    border-radius: 0 !important;
+}
+
+.dms-btn {
+	border-radius: 0;
+    border: 1px solid #0076CB;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0px 3px;
+    height: 36px;
+    font-size: 15px !important;
+    color: #0076CB;
+    &:hover {
+		background-color: #0076CB;
+		color: #FFFFFF;
+    }
+    &:active {
+	   border: 1px solid #065D9C;
+	   color: #FFFFFF !important;
+	   background: #065D9C !important;
+    }
+    &:focus {
+        border: 1px solid #065D9C;
+        color: #FFFFFF !important;
+        background: #065D9C !important;
+    }
+}
+.dms-sm-btn {
+    border-radius: 0;
+    border: 1px solid #0076CB;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    font-size: 13px !important;
+    color: #0076CB;
+    margin: 0px 3px;
+    &:hover {
+        background-color: #0076CB;
+        color: #FFFFFF;
+    }
+    &:active {
+       border: 1px solid #065D9C;
+       color: #FFFFFF !important;
+       background: #065D9C !important;
+    }
+    &:focus {
+        border: 1px solid #065D9C;
+        color: #FFFFFF !important;
+        background: #065D9C !important;
+    }
+}
+.dms-btn-primary {
+	border-radius: 0;
+	border: 0;
+    background-color: #0076CB;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 36px;
+    font-size: 15px !important;
+    color: #FFFFFF;
+    margin: 0px 3px;
+    &:hover {
+        background-color: #065D9C;
+    }
+    &:active {
+	   border: 1px solid #065D9C !important;
+	   color: #FFFFFF !important;
+	   background: #065D9C !important;
+    }
+    &:focus {
+        border: 1px solid #065D9C !important;
+        color: #FFFFFF !important;
+        background: #065D9C !important;
+    }
+}
+
+.dms-sm-btn-primary {
+    border-radius: 0;
+    border: 0;
+    background-color: #0076CB;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    font-size: 13px !important;
+    color: #FFFFFF;
+    margin: 0px 3px;
+    &:hover {
+        background-color: #065D9C;
+    }
+    &:active {
+       border: 1px solid #065D9C !important;
+       color: #FFFFFF !important;
+       background: #065D9C !important;
+    }
+    &:focus {
+        border: 1px solid #065D9C !important;
+        color: #FFFFFF !important;
+        background: #065D9C !important;
+    }
+}
+
+.col-md-2 {
+    padding-left: 0;
+}
+.dmsselect{
+    background:none!important;
+    background-color: #fff !important;
+ }
+.dms-date-picker {
+    .glyphicon-calendar {
+        float: right;
+        margin-right: 6px;
+        margin-top: -25px;
+        position: relative;
+        z-index: 2;
+        color: 00679E !important;
+    }
+    div ul.uib-datepicker-popup {
+    .uib-button-bar {
+        display:none;
+    }
+    .small, small {
+        font-size: 10px;
+        font-weight: bold;
+        color: #555555;
+    }
+    .btn-sm {
+        border-radius: 0;
+    }
+    .btn {
+        border-radius: 0;
+        border: 1px solid #fff;
+        background: #F5F5F5;
+        font-size: 14px !important;
+    }
+    }
+}
+ 

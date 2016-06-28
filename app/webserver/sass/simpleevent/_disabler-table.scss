@@ -1,0 +1,22 @@
+ .disabler {
+  width: 100%;
+  height: 250px;
+  background-color: #d7d7d7;
+  opacity: 0.5;
+  margin-bottom: -250px;
+ }
+table {
+  &.tblTest {
+    width: 95%;
+    margin: 0 0 0 30px;
+    th {
+      background-color: #ECECEC;
+      height: 30px;
+      border: 1px solid #d7d7d7;
+    }
+    td {
+      height: 34px;
+      border: 1px solid #d7d7d7;
+    }
+  }
+}
